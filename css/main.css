@@ -43,6 +43,106 @@ h3 {
   margin: 0;
 }
 
+.header-logo{ 
+  max-width: 150px;
+}
+
+.header-list{
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.header-nav .header-list .list-item .list-link  {
+  
+  color: white;
+  display: block;
+  background-color: #F54F95;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.donut-shop-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+  
+}
+
+.header-list .list-item .list-link:hover,
+.header-list .list-item .list-link:focus{
+  background-color: black;
+}
+.banner-wrapper{
+  background-image: url(../images/hero-donuts.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container{
+  padding: 50px 100px;
+}
+
+.cards-inner-wrapper{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card:nth-child(1){
+  background-color: #F54F95;
+  
+}
+.card:nth-child(2){
+  background-color: rgb(170, 138, 99);
+  
+}
+.card:nth-child(3){
+  background-color: rgba(224, 173, 64, 0.919);
+  
+}
+.card:nth-child(4){
+  background-color: rgb(41, 193, 150);
+  
+}
+
+.card{
+  color: white;
+  border-radius: 20px;
+  padding: 20px 10px 40px;
+  text-align: center;
+}
+
+.card .card-link{
+  background-color: white;
+  color: #F54F95;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: block;
+  font-weight: bold;
+  margin: 50px auto 0;
+  width: fit-content;
+}
+
+/* footer */
+
+.footer-container{
+  background-color: #F54F95;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
 
 
 
